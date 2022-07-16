@@ -1,22 +1,19 @@
-<<<<<<< HEAD
-import NotificationButton from "./components/notificationButton"
+import Header from "./components/Header"
+import SalesCard from "./components/SalesCard"
 
 function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
-      <NotificationButton />
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
     </>
   )
-=======
-
-function App() {
-
-  return(
-    <h1>Olá Mundo</h1>
-  )
-
->>>>>>> cca7713fe63a70f56ae0d21d5b1c993e3fcf2230
 }
 
 export default App
